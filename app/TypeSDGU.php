@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class TypeSDGU extends Model
 {
-    protected $table = "type_whitelisting_sd_gu";
+    protected $table = "type_whitelisting_SD_GU";
 }

@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class TypeSDAviation extends Model
 {
-    protected $table = "type_whitelisting_sd_aviation";
+    protected $table = "type_whitelisting_SD_Aviation";
 }

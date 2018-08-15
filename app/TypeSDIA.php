@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class TypeSDIA extends Model
 {
-    protected $table = "type_whitelisting_sd_ia";
+    protected $table = "type_whitelisting_SD_IA";
 }

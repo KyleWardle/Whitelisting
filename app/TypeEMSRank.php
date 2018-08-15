@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class TypeEMSRank extends Model
 {
-    protected $table = "type_whitelisting_ems_rank";
+    protected $table = "type_whitelisting_EMS_Rank";
 }

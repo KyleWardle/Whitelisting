@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class TypeSDSERT extends Model
 {
-    protected $table = "type_whitelisting_sd_sert";
+    protected $table = "type_whitelisting_SD_SERT";
 }
