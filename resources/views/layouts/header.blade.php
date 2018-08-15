@@ -20,7 +20,7 @@
 
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                 @if(Auth::user()->is_super_admin)
-                                    <a class="dropdown-item" href="">Administration</a>
+                                    <a class="dropdown-item" href="{{route('adminMenu')}}">Administration</a>
                                 @endif
                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                    onclick="event.preventDefault();

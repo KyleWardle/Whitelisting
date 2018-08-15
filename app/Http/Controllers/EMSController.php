@@ -26,6 +26,8 @@ use App\TypeSDSERT;
 
 use App\TypeStaffRank;
 
+use App\Http\Middleware\CheckEMSPermissions;
+
 class EMSController extends Controller
 {
     /**
@@ -36,6 +38,7 @@ class EMSController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+        $this->middleware(CheckEMSPermissions::class);
     }
 
     /**

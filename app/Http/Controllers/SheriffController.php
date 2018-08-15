@@ -26,6 +26,8 @@ use App\TypeSDSERT;
 
 use App\TypeStaffRank;
 
+use App\Http\Middleware\CheckSDPermissions;
+
 class SheriffController extends Controller
 {
     /**
@@ -36,6 +38,7 @@ class SheriffController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+        $this->middleware(CheckSDPermissions::class);
     }
 
     /**

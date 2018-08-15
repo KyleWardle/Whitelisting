@@ -35,3 +35,5 @@ Route::get('/whitelist/staff/user/{uid}', 'StaffController@showUserStaff')->name
 Route::post('/whitelist/staff/user/{uid}', 'StaffController@submitUserStaff')->name('submitUserStaff');
 
 Route::get('/admin', 'AdministrationController@adminMenu')->name('adminMenu');
+Route::get('/admin/user/{userid}', 'AdministrationController@manageUser')->name('manageUser');
+Route::post('/admin/user/{userid}', 'AdministrationController@manageUserSubmit')->name('manageUserSubmit');

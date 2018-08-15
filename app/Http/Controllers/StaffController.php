@@ -10,6 +10,8 @@ use App\Whitelist;
 
 use App\TypeStaffRank;
 
+use App\Http\Middleware\CheckStaffPermissions;
+
 class StaffController extends Controller
 {
     /**
@@ -20,6 +22,7 @@ class StaffController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+        $this->middleware(CheckStaffPermissions::class);
     }
 
     /**
