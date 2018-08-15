@@ -10,6 +10,7 @@ class Whitelist extends Model implements Auditable
     use \OwenIt\Auditing\Auditable;
     protected $table = "whitelist";
     protected $primaryKey = 'uid';
+    protected $connection = "mysql-alt";
 
     public $timestamps = false;
 
