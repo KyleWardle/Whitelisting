@@ -24,7 +24,7 @@
                         <p class="description"><br>Whitelist members of the Erie County Emergency Medical Service here!<br><br></p><a class="btn btn-outline-info" role="button" href="{{route('whitelistEMS')}}">Continue</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="bounce animated box"><i class="fa fa-fighter-jet icon" style="color:#eb3b60;"></i>
+                    <div class="bounce animated box"><i class="fa fa-gavel icon" style="color:#eb3b60;"></i>
                         <h3 class="name">Staff</h3>
                         <p class="description"><br>Whitelist Staff members here for OurLifeRPG servers.<br><br></p><a class="btn btn-outline-info" role="button" href="{{route('whitelistStaff')}}">Continue</a></div>
                 </div>
