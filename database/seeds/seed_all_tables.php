@@ -59,7 +59,7 @@ class seed_all_tables extends Seeder
             ['description'=>'Command','key'=>3],
         ]);
 
-        DB::table('type_whitelisting_SD_Cid')->insert([
+        DB::table('type_whitelisting_SD_CID')->insert([
             ['description'=>'No Whitelist','key'=>0],
             ['description'=>'Regular','key'=>1],
             ['description'=>'Supervisor','key'=>2],
