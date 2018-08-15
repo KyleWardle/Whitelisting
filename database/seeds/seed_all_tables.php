@@ -16,7 +16,7 @@ class seed_all_tables extends Seeder
             ['description'=>'Full Permissions','key'=>2],
         ]);
 
-        DB::table('type_whitelisting_ems_rank')->insert([
+        DB::table('type_whitelisting_EMS_Rank')->insert([
             ['description'=>'Untrained','key'=>0],
             ['description'=>'Probationary','key'=>1],
             ['description'=>'EMT','key'=>2],
@@ -28,17 +28,17 @@ class seed_all_tables extends Seeder
             ['description'=>'Fire Chief','key'=>8],
         ]);
 
-        DB::table('type_whitelisting_ems_fd')->insert([
+        DB::table('type_whitelisting_EMS_FD')->insert([
             ['description'=>'No','key'=>0],
             ['description'=>'Yes','key'=>1],
         ]);
 
-        DB::table('type_whitelisting_ems_aviation')->insert([
+        DB::table('type_whitelisting_EMS_Aviation')->insert([
             ['description'=>'No','key'=>0],
             ['description'=>'Yes','key'=>1],
         ]);
 
-        DB::table('type_whitelisting_sd_rank')->insert([
+        DB::table('type_whitelisting_SD_Rank')->insert([
             ['description'=>'Untrained','key'=>0],
             ['description'=>'Cadet','key'=>1],
             ['description'=>'Junior Deputy','key'=>2],
@@ -52,63 +52,63 @@ class seed_all_tables extends Seeder
             ['description'=>'Chief of Police','key'=>10],
         ]);
 
-        DB::table('type_whitelisting_sd_aviation')->insert([
+        DB::table('type_whitelisting_SD_Aviation')->insert([
             ['description'=>'No Whitelist','key'=>0],
             ['description'=>'Regular','key'=>1],
             ['description'=>'Supervisor','key'=>2],
             ['description'=>'Command','key'=>3],
         ]);
 
-        DB::table('type_whitelisting_sd_cid')->insert([
+        DB::table('type_whitelisting_SD_Cid')->insert([
             ['description'=>'No Whitelist','key'=>0],
             ['description'=>'Regular','key'=>1],
             ['description'=>'Supervisor','key'=>2],
             ['description'=>'Command','key'=>3],
         ]);
 
-        DB::table('type_whitelisting_sd_fto')->insert([
+        DB::table('type_whitelisting_SD_FTO')->insert([
             ['description'=>'No Whitelist','key'=>0],
             ['description'=>'Regular','key'=>1],
             ['description'=>'Supervisor','key'=>2],
             ['description'=>'Command','key'=>3],
         ]);
 
-        DB::table('type_whitelisting_sd_gu')->insert([
+        DB::table('type_whitelisting_SD_GU')->insert([
             ['description'=>'No Whitelist','key'=>0],
             ['description'=>'Regular','key'=>1],
             ['description'=>'Supervisor','key'=>2],
             ['description'=>'Command','key'=>3],
         ]);
 
-        DB::table('type_whitelisting_sd_hp')->insert([
+        DB::table('type_whitelisting_SD_HP')->insert([
             ['description'=>'No Whitelist','key'=>0],
             ['description'=>'Regular','key'=>1],
             ['description'=>'Supervisor','key'=>2],
             ['description'=>'Command','key'=>3],
         ]);
 
-        DB::table('type_whitelisting_sd_ia')->insert([
+        DB::table('type_whitelisting_SD_IA')->insert([
             ['description'=>'No Whitelist','key'=>0],
             ['description'=>'Regular','key'=>1],
             ['description'=>'Supervisor','key'=>2],
             ['description'=>'Command','key'=>3],
         ]);
 
-        DB::table('type_whitelisting_sd_k9')->insert([
+        DB::table('type_whitelisting_SD_K9')->insert([
             ['description'=>'No Whitelist','key'=>0],
             ['description'=>'Regular','key'=>1],
             ['description'=>'Supervisor','key'=>2],
             ['description'=>'Command','key'=>3],
         ]);
 
-        DB::table('type_whitelisting_sd_sert')->insert([
+        DB::table('type_whitelisting_SD_SERT')->insert([
             ['description'=>'No Whitelist','key'=>0],
             ['description'=>'Regular','key'=>1],
             ['description'=>'Supervisor','key'=>2],
             ['description'=>'Command','key'=>3],
         ]);
 
-        DB::table('type_whitelisting_staff_rank')->insert([
+        DB::table('type_whitelisting_Staff_Rank')->insert([
             ['description'=>'No Whitelist','key'=>0],
             ['description'=>'Helper','key'=>1],
             ['description'=>'Moderator','key'=>2],
